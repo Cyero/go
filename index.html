@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  const s = new URLSearchParams(location.search).get('sub');
+  if (s) location.href = 'hiddify://import/' + s;
+</script>
+</head>
+</html>
